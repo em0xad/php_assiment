@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $password = trim($_POST["password"]);
     $confirm_password = trim($_POST["confirm_password"]);
 
-    // التحقق من المدخلات
+    
     if (empty($username)) {
         $errors['username'] = "Username is required";
     }
